@@ -13,7 +13,7 @@ export const Nav = () => {
       <div className="subdiv1" >  
       <span>
 
-        <a href=""> Company ˬ </a>
+        <a href=""> Companyˬ </a>
       </span>
       <span>
         <a href="">Our Servicesˬ</a>
