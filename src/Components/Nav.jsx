@@ -1,5 +1,5 @@
 import React from "react";
-
+import logo from "./imgs/del.png"
 export const Nav = () => {
   const Submit = () => {
     alert("Please Don't Click Me");
@@ -8,7 +8,7 @@ export const Nav = () => {
   return (
     <div className="Div1">
       <div>
-      <img src="https://www.dtdc.in/img/logos/logo.png" alt="" srcset="" />
+      <img src={logo} alt="" srcset="" />
       </div>
       <div className="subdiv1" >  
       <span>
@@ -30,7 +30,7 @@ export const Nav = () => {
       </div>
       <div>
       <span>
-        <button onClick={Submit}>Ship with MyDTDC</button>
+        <button onClick={Submit}>Ship with US </button>
       </span>
       </div>
     </div>

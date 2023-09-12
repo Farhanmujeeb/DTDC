@@ -3,15 +3,12 @@ import Facebook from "./imgs/Facebook.png";
 import Insta from "./imgs/insta.jpg";
 import Twitter from "./imgs/twitter.jpg";
 import Youtube from "./imgs/youtube.jpg";
+import logo from "./imgs/del.png";
 const Footer = () => {
   return (
     <div className="footdiv">
       <div className="dtdiv">
-        <img
-          src="https://www.dtdc.in/img/logos/logo-footer.png"
-          alt=""
-          srcset=""
-        />
+        <img src={logo} alt="" srcset="" />
         <p>Email : customersupport@dtdc.com</p>
         <div className="dtbrake"></div>
         <p>Phone : +91- 89 2986 9688</p>
